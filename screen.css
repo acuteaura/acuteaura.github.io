@@ -1,0 +1,39 @@
+.print {
+    display: none;
+}
+
+html {
+    background-image: url("vendor/subtlepatterns/mochaGrunge.png")
+}
+
+h1 {
+    color: #333;
+}
+
+body {
+    background-color: #fefefe;
+    color: #555;
+    max-width:740px;
+}
+
+aside {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 20px auto;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    main section {
+        width: 70%;
+    }
+
+    main aside {
+        width: 28%;
+    }
+}
