@@ -104,3 +104,9 @@ footer {
     color: #444;
     font-size: 0.8em;
 }
+
+@media print {
+  .pls-no-wrap {
+    break-inside: avoid;
+  }
+}
